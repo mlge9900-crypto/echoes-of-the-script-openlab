@@ -1,0 +1,989 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+2 0 obj
+<<
+/Producer (PyPDF2)
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+/F17940824f-56b0-4a73-b9c4-b847d4ffc1d6 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F248c91108-53bf-4292-b445-e02bfee33262 <<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /PDF /Text /ImageI /ImageB /ImageC ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 10298
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+1 0 0 1 45.6 724.4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 18 Tf
+22 TL
+109.353 0 Td
+(Quick\040Start\072\040Falsifiability\040Sheet\040\050v5\051) Tj
+T*
+-109.353 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 45.6 692.4 cm
+q
+0.2 0.2 0.2 rg
+BT
+1 0 0 1 0 15.5 Tm
+/F1 10.5 Tf
+13 TL
+4.46775 0 Td
+(A\040one\055page\040workflow\040to\040log\040a\040bounded\040claim\054\040tie\040it\040to\040provenance\040and\040evidence\054\040and\040run\040two\040independent\040peer) Tj
+T*
+143.2987 0 Td
+(checks\040\050R1\057R2\051\056\040AI\040is\040logged\040input\054\040not\040authority\056) Tj
+T*
+-147.7665 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 68.4 313.4 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 355 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Run\040one\040artifact\040through\040the\040sheet) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 327 cm
+q
+BT
+1 0 0 1 0 14.5 Tm
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(1\056) Tj
+/F1 9.5 Tf
+(\040Pick\040) Tj
+/F2 9.5 Tf
+(one\040artifact) Tj
+/F1 9.5 Tf
+(\040and\040) Tj
+/F2 9.5 Tf
+(one\040narrow\040claim) Tj
+/F1 9.5 Tf
+(\040\050one\040sentence\054) Tj
+T*
+(testable\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 325 cm
+Q
+q
+1 0 0 1 0 301 cm
+q
+BT
+1 0 0 1 0 14.5 Tm
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(2\056) Tj
+/F1 9.5 Tf
+(\040Fill\040) Tj
+/F2 9.5 Tf
+(CISI\057context) Tj
+/F1 9.5 Tf
+(\072\040provenance\054\040period\054\040object\040type\054) Tj
+T*
+(museum\057collection\040ID\054\040and\040a\040stable\040URL\040or\040DOI\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 299 cm
+Q
+q
+1 0 0 1 0 275 cm
+q
+BT
+1 0 0 1 0 14.5 Tm
+-0.11765 Tw
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(3\056) Tj
+/F1 9.5 Tf
+(\040Record\040) Tj
+/F2 9.5 Tf
+(ORI) Tj
+/F1 9.5 Tf
+(\040\050reading\040direction\051\056\040If\040unknown\054\040mark\040N\057A\040or\040low) Tj
+T*
+0 Tw
+(confidence\040\055\040do\040not\040guess\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 273 cm
+Q
+q
+1 0 0 1 0 261 cm
+q
+BT
+1 0 0 1 0 2.5 Tm
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(4\056) Tj
+/F1 9.5 Tf
+(\040Record\040) Tj
+/F2 9.5 Tf
+(OVR) Tj
+/F1 9.5 Tf
+(\040\050overlay\057alignment\051\056\040If\040not\040used\054\040mark\040N\057A\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 259 cm
+Q
+q
+1 0 0 1 0 223 cm
+q
+BT
+1 0 0 1 0 26.5 Tm
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(5\056) Tj
+/F1 9.5 Tf
+(\040Check\040only\040the\040) Tj
+/F2 9.5 Tf
+(evidence\040types) Tj
+/F1 9.5 Tf
+(\040you\040actually\040used\040\050e\056g\056\054) Tj
+T*
+(sign\040list\054\040object\040description\054\040provenance\040record\054\040sequence) Tj
+T*
+(test\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 221 cm
+Q
+q
+1 0 0 1 0 197 cm
+q
+BT
+1 0 0 1 0 14.5 Tm
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(6\056) Tj
+/F1 9.5 Tf
+(\040Set\040component\040confidence\040separately\072\040) Tj
+/F2 9.5 Tf
+(T\057R) Tj
+/F1 9.5 Tf
+(\040\050reading\051\054\040) Tj
+/F2 9.5 Tf
+(P\057A\057O) Tj
+/F1 9.5 Tf
+T*
+(\050category\040call\051\054\040) Tj
+/F2 9.5 Tf
+(ORI) Tj
+/F1 9.5 Tf
+(\054\040) Tj
+/F2 9.5 Tf
+(G\057OVR) Tj
+/F1 9.5 Tf
+(\040\050glyph\057overlay\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 195 cm
+Q
+q
+1 0 0 1 0 171 cm
+q
+BT
+1 0 0 1 0 14.5 Tm
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(7\056) Tj
+/F1 9.5 Tf
+(\040Write\0401\0553\040) Tj
+/F2 9.5 Tf
+(prep\040notes) Tj
+/F1 9.5 Tf
+(\040that\040justify\040confidence\040choices\040\050short\054) Tj
+T*
+(factual\054\040citeable\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 169 cm
+Q
+q
+1 0 0 1 0 133 cm
+q
+BT
+1 0 0 1 0 26.5 Tm
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(8\056) Tj
+/F1 9.5 Tf
+(\040If\040you\040use\040AI\054\040paste\040output\040into\040) Tj
+/F2 9.5 Tf
+(AI\040comments) Tj
+/F1 9.5 Tf
+(\040and\040mark\040a) Tj
+T*
+(traffic\040light\072\040) Tj
+/F2 9.5 Tf
+(G) Tj
+/F1 9.5 Tf
+(\040supported\054\040) Tj
+/F2 9.5 Tf
+(Y) Tj
+/F1 9.5 Tf
+(\040plausible\057incomplete\054\040) Tj
+/F2 9.5 Tf
+(R) Tj
+/F1 9.5 Tf
+T*
+(unsupported\057contradicted\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 131 cm
+Q
+q
+1 0 0 1 0 107 cm
+q
+BT
+1 0 0 1 0 14.5 Tm
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(9\056) Tj
+/F1 9.5 Tf
+(\040Run\040) Tj
+/F2 9.5 Tf
+(R1) Tj
+/F1 9.5 Tf
+(\072\040reviewer\040verifies\040the\040evidence\040trail\040\050not\040just\040the) Tj
+T*
+(conclusion\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 105 cm
+Q
+q
+1 0 0 1 0 81 cm
+q
+BT
+1 0 0 1 0 14.5 Tm
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(10\056) Tj
+/F1 9.5 Tf
+(\040Run\040) Tj
+/F2 9.5 Tf
+(R2) Tj
+/F1 9.5 Tf
+(\072\040second\040reviewer\040stress\055tests\040contradictions\054) Tj
+T*
+(alternatives\054\040or\040gaps\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 79 cm
+Q
+q
+1 0 0 1 0 55 cm
+q
+BT
+1 0 0 1 0 14.5 Tm
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(11\056) Tj
+/F1 9.5 Tf
+(\040Log\040outcome\072\040) Tj
+/F2 9.5 Tf
+(Confirmed) Tj
+/F1 9.5 Tf
+(\040\057\040) Tj
+/F2 9.5 Tf
+(Revise) Tj
+/F1 9.5 Tf
+(\040\057\040) Tj
+/F2 9.5 Tf
+(Defer) Tj
+/F1 9.5 Tf
+(\040\057\040) Tj
+/F2 9.5 Tf
+(Unproven) Tj
+/F1 9.5 Tf
+(\056\040If) Tj
+T*
+(reviewers\040disagree\054\040log\040both\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 53 cm
+Q
+q
+1 0 0 1 0 29 cm
+q
+BT
+1 0 0 1 0 14.5 Tm
+12 TL
+/F2 9.5 Tf
+0 0 0 rg
+(12\056) Tj
+/F1 9.5 Tf
+(\040Publish\040the\040completed\040sheet\040\050PDF\051\040with\040a\040back\055link\040to\040the) Tj
+T*
+(source\040record\040and\040supporting\040references\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 0 27 cm
+Q
+q
+1 0 0 1 0 21 cm
+Q
+q
+1 0 0 1 0 0 cm
+q
+BT
+1 0 0 1 0 12.5 Tm
+10.5 TL
+/F2 8.5 Tf
+0.266667 0.266667 0.266667 rg
+(Lean\040workflow\072) Tj
+/F1 8.5 Tf
+(\040LIGHT\040pass\040logs\040traceability\040\053\040provisional) Tj
+T*
+(confidence\056\040FULL\040pass\040adds\040R1\057R2\040\050required\040for\040public\055ready\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 262.8 355 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Field\040labels\040\050glossary\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 262.8 71 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 3 266 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 9.5 Tf
+12 TL
+(CISI) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.4 254 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 14.5 Tm
+/F1 9.5 Tf
+12 TL
+(Collection\057Institution\040\053\040stable\040identifier) Tj
+T*
+(\050e\056g\056\054\040museum\040ID\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 238 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 9.5 Tf
+12 TL
+(ORI) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.4 226 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 14.5 Tm
+/F1 9.5 Tf
+12 TL
+(Orientation\057reading\040direction\040decision) Tj
+T*
+(\050L) Tj
+/F3 9.5 Tf
+12 TL
+(\256) Tj
+/F1 9.5 Tf
+12 TL
+(R\054\040R) Tj
+/F3 9.5 Tf
+12 TL
+(\256) Tj
+/F1 9.5 Tf
+12 TL
+(L\054\040or\040N\057A\051\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 210 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 9.5 Tf
+12 TL
+(OVR) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.4 198 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 14.5 Tm
+/F1 9.5 Tf
+12 TL
+(Overlay\057alignment\040choice\040used\040to\040map\040a) Tj
+T*
+(hypothesis\073\040N\057A\040if\040not\040used\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 182 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 9.5 Tf
+12 TL
+(Evidence) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.4 170 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 14.5 Tm
+/F1 9.5 Tf
+12 TL
+(Checkbox\040log\040of\040evidence\040sources) Tj
+T*
+(actually\040consulted\040for\040this\040entry\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 154 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 9.5 Tf
+12 TL
+(T\057R) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.4 154 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 9.5 Tf
+12 TL
+(Transcription\057reading\040confidence\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 138 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 9.5 Tf
+12 TL
+(P\057A\057O) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.4 126 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 14.5 Tm
+/F1 9.5 Tf
+12 TL
+(Category\040call\040confidence) Tj
+T*
+(\050Person\057Animal\057Object\051\040when\040applicable\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 110 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 9.5 Tf
+12 TL
+(G\040\057\040G\055OVR) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.4 98 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 14.5 Tm
+/F1 9.5 Tf
+12 TL
+(Glyph\055first\040mode\040and\040confidence\040in\040glyph) Tj
+T*
+(ID\040and\057or\040overlay\040placement\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 82 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 9.5 Tf
+12 TL
+(R1\040\057\040R2) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.4 70 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 14.5 Tm
+/F1 9.5 Tf
+12 TL
+(Independent\040peer\040checks\072\040R1\040verifies\040trail\073) Tj
+T*
+(R2\040stress\055tests\040contradictions\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 54 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 9.5 Tf
+12 TL
+(AI\040G\057Y\057R) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.4 42 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 14.5 Tm
+/F1 9.5 Tf
+12 TL
+(Risk\040indicator\072\040Green\040supported\073\040Yellow) Tj
+T*
+(incomplete\073\040Red\040contradicted\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 3 26 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 9.5 Tf
+12 TL
+(Out\040of\040scope) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 89.4 2 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 26.5 Tm
+/F1 9.5 Tf
+12 TL
+(Damaged\057unclear\040artifacts\040or\040claims\040not) Tj
+T*
+(responsibly\040testable\040with\040available) Tj
+T*
+(evidence\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0.866667 0.866667 0.866667 RG
+0.25 w
+n
+0 252 m
+270 252 l
+S
+n
+0 224 m
+270 224 l
+S
+n
+0 196 m
+270 196 l
+S
+n
+0 168 m
+270 168 l
+S
+n
+0 152 m
+270 152 l
+S
+n
+0 124 m
+270 124 l
+S
+n
+0 96 m
+270 96 l
+S
+n
+0 68 m
+270 68 l
+S
+n
+0 40 m
+270 40 l
+S
+n
+0 0 m
+270 0 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 262.8 63 cm
+Q
+q
+1 0 0 1 262.8 31.5 cm
+q
+BT
+1 0 0 1 0 23 Tm
+10.5 TL
+/F2 8.5 Tf
+0.266667 0.266667 0.266667 rg
+(Baseline\040tip\072) Tj
+/F1 8.5 Tf
+(\040start\040with\040already\055deciphered\040material) Tj
+T*
+(\050e\056g\056\054\040Egyptian\051\040to\040calibrate\040the\040rubric\040and\040reviewer) Tj
+T*
+(behavior\040before\040contested\040scripts\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 262.8 23.5 cm
+Q
+q
+1 0 0 1 262.8 2.5 cm
+q
+0.266667 0.266667 0.266667 rg
+BT
+1 0 0 1 0 12.5 Tm
+/F1 8.5 Tf
+10.5 TL
+<4563686f6573206f662074686520536372697074207f204d69636861656c204772617361207f20434320425920342e3020286966> Tj
+T*
+<6170706c696361626c6529207f2056657273696f6e2f646174653a205f5f5f5f5f5f5f5f> Tj
+T*
+ET
+Q
+Q
+q
+Q
+Q
+Q
+Q
+q
+0 0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F17940824f-56b0-4a73-b9c4-b847d4ffc1d6 12 Tf
+14.4 TL
+ET
+1 1 0.9 rg
+0 0 0 RG
+1 w
+n
+49.6 680.4 m
+562.4 680.4 l
+567.928 680.4 572.4 684.872 572.4 690.4 c
+572.4 715.04 l
+572.4 720.568 567.928 725.04 562.4 725.04 c
+49.6 725.04 l
+44.072 725.04 39.6 720.568 39.6 715.04 c
+39.6 690.4 l
+39.6 684.872 44.072 680.4 49.6 680.4 c
+h
+B*
+0 0 0 rg
+BT
+/F248c91108-53bf-4292-b445-e02bfee33262 10.8 Tf
+12.96 TL
+ET
+BT
+1 0 0 1 51.12 708.48 Tm
+(R2\040OUTCOME\040RULE) Tj
+T*
+ET
+BT
+/F17940824f-56b0-4a73-b9c4-b847d4ffc1d6 9.5 Tf
+11.4 TL
+ET
+BT
+1 0 0 1 51.12 694.8 Tm
+(R2\040is\040not\040advisory\056\040R2\040must\040choose\040an\040outcome\040\050Confirmed\040\057\040Revise\040\057\040Defer\040\057\040Unproven\051\040and\040add\040a\0401\055line\040reason\056\040If) Tj
+T*
+ET
+BT
+1 0 0 1 51.12 684 Tm
+(unsure\072\040Defer\040\050needs\040evidence\051\040or\040Unproven\040\050not\040supported\051\040and\040state\040what\040would\040change\040it\056) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Symbol
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000074 00000 n 
+0000000114 00000 n 
+0000000163 00000 n 
+0000000663 00000 n 
+0000011014 00000 n 
+0000011121 00000 n 
+0000011233 00000 n 
+0000011310 00000 n 
+0000011417 00000 n 
+trailer
+<<
+/Size 11
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+11530
+%%EOF
