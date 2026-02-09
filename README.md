@@ -8,7 +8,7 @@ Echoes of the Script — OpenLab for Ancient Scripts. Falsifiability Sheet v5 ki
 3) See **/worked-examples/** → Ramesses II fully worked example
 
 
-## Start here (30 seconds)
+
 1) Read the Zenodo record abstract first (it explains how to submit to the community): https://zenodo.org/records/18518231  
 2) Download what you need from this repo: **quickstart/**, **templates/**, and **worked-examples/**.  
 3) Complete your R2 (second-rater) check and submit it to the Zenodo community using the instructions in the abstract.
