@@ -6,3 +6,7 @@ Echoes of the Script — OpenLab for Ancient Scripts. Falsifiability Sheet v5 ki
 1) Open **/quickstart/** → Quick Start PDF  
 2) Download **/templates/** → Blank Sheet + R2-ready Sheet  
 3) See **/worked-examples/** → Ramesses II fully worked example
+
+
+## Canonical archive (Zenodo)
+Zenodo record (DOI-first): https://zenodo.org/records/18518231
