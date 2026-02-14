@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Echoes of the Script — OpenLab"
+message: "If you use this toolkit, please cite it using the metadata below."
+type: dataset
+authors:
+  - family-names: Grasa
+    given-names: Michael
+license: MPL-2.0
+repository-code: https://github.com/mlge9900-crypto/echoes-of-the-script-openlab
+url: https://zenodo.org/records/18518231
+keywords:
+  - ancient scripts
+  - paleography
+  - epigraphy
+  - falsifiability
+  - peer review
+  - research methodology
+abstract: >-
+  A peer-review toolkit for ancient script research. Provides a
+  Falsifiability Sheet (v5) workflow to log bounded claims, tie them
+  to provenance and evidence, and run two independent peer checks
+  (R1/R2). Includes templates, a quick-start guide, and worked examples.
