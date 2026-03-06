@@ -1,6 +1,24 @@
-# Echoes of the Script — OpenLab
+# Echoes of the Script — OpenLab for Ancient Scripts
 
-A peer-review toolkit for ancient script research. Log a claim, tie it to evidence, and run two independent checks — so conclusions are testable, not just plausible.
+Public verification toolkit for AI-assisted ancient writing and heritage research.
+
+**Status:** Actively maintained
+**Current Version:** v1.0-alpha
+**License:** [MPL-2.0](LICENSE)
+**Founder:** Michael Grasa
+**Contact:** mlge9900@gmail.com
+**Zenodo:** [https://zenodo.org/records/18518231](https://zenodo.org/records/18518231)
+
+---
+
+## Start here (30 seconds)
+
+1. Open [`quickstart/`](quickstart/) for the Quick Start PDF
+2. Download [`templates/`](templates/) for the Blank Sheet and R2-ready Sheet
+3. Review [`worked-examples/`](worked-examples/) for the Ramesses II example
+4. Read the [Zenodo record abstract](https://zenodo.org/records/18518231) for submission instructions
+
+---
 
 ## What is this?
 
