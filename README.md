@@ -2,7 +2,7 @@
 
 Public verification toolkit for AI-assisted ancient writing and heritage research.
 
-**Status:** Actively maintained
+**Status:** Prototype — actively maintained
 **Current Version:** v1.0-alpha
 **License:** [MPL-2.0](LICENSE)
 **Founder:** Michael Grasa
@@ -110,6 +110,17 @@ quickstart/       → One-page quick-start guide (PDF)
 templates/        → Blank sheet + R2-ready sheet (PDFs)
 worked-examples/  → Ramesses II fully worked example (PDF)
 ```
+
+## Roadmap
+
+This project is currently a **prototype**. The Falsifiability Sheet is designed to be read by any multimodal AI (e.g., Claude, GPT-4) directly from a photo or scan — no software installation required.
+
+**Current phase:** Paper/PDF-based workflow with AI integration via image recognition.
+
+**Future phases:**
+- Digitalize the sheet into a web-based form with structured data output (JSON)
+- Build validation tooling to auto-check field completeness and consistency
+- Enable scalable deployment across institutions and research communities
 
 ## License
 
