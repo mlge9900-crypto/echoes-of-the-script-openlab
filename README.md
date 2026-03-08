@@ -8,6 +8,7 @@ Public verification toolkit for AI-assisted ancient writing and heritage researc
 **Founder:** Michael Grasa
 **Contact:** mlge9900@gmail.com
 **Zenodo:** [https://zenodo.org/records/18518231](https://zenodo.org/records/18518231)
+**Support:** [Fractured Atlas](https://fundraising.fracturedatlas.org/echoes-of-the-script-public-decoding-pop-ups)
 
 ---
 
@@ -17,6 +18,15 @@ Public verification toolkit for AI-assisted ancient writing and heritage researc
 2. Download [`templates/`](templates/) for the Blank Sheet and R2-ready Sheet
 3. Review [`worked-examples/`](worked-examples/) for the Ramesses II example
 4. Read the [Zenodo record abstract](https://zenodo.org/records/18518231) for submission instructions
+
+---
+
+## Support the Open Lab
+
+Echoes of the Script: Open Lab for Ancient Writing is supported through Fractured Atlas. Contributions help sustain the public lab, improve documentation and examples, and expand open research infrastructure for collaborative script analysis.
+
+Support the lab here:
+[Fractured Atlas Support Page](https://fundraising.fracturedatlas.org/echoes-of-the-script-public-decoding-pop-ups)
 
 ---
 
