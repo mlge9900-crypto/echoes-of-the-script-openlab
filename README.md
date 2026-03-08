@@ -25,7 +25,7 @@ Public verification toolkit for AI-assisted ancient writing and heritage researc
 
 ## Support the Open Lab
 
-Echoes of the Script: Open Lab for Ancient Writing is supported through Fractured Atlas. Contributions help sustain the public lab, improve documentation and examples, and expand open research infrastructure for collaborative script analysis.
+Echoes of the Script: Open Lab for Ancient Writing is supported through Fractured Atlas. Donations help support the public-facing lab, workflow updates, documentation, examples, open research infrastructure, and future digitization of research sheets, templates, and collaborative workflow tools.
 
 Support the lab here:
 [Fractured Atlas Support Page](https://fundraising.fracturedatlas.org/echoes-of-the-script-public-decoding-pop-ups)
