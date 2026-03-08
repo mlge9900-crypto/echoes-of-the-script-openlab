@@ -2,13 +2,15 @@
 
 Public verification toolkit for AI-assisted ancient writing and heritage research.
 
-**Status:** Prototype — actively maintained
-**Current Version:** v1.0-alpha
-**License:** [MPL-2.0](LICENSE)
-**Founder:** Michael Grasa
-**Contact:** mlge9900@gmail.com
-**Zenodo:** [https://zenodo.org/records/18518231](https://zenodo.org/records/18518231)
-**Support:** [Fractured Atlas](https://fundraising.fracturedatlas.org/echoes-of-the-script-public-decoding-pop-ups)
+| | |
+|---|---|
+| **Status** | Prototype — actively maintained |
+| **Current Version** | v1.0-alpha |
+| **License** | [MPL-2.0](LICENSE) |
+| **Founder** | Michael Grasa |
+| **Contact** | mlge9900@gmail.com |
+| **Zenodo** | [https://zenodo.org/records/18518231](https://zenodo.org/records/18518231) |
+| **Support** | [Fractured Atlas](https://fundraising.fracturedatlas.org/echoes-of-the-script-public-decoding-pop-ups) |
 
 ---
 
