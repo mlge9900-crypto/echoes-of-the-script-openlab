@@ -1,8 +1,10 @@
 # Echoes of the Script — OpenLab
 
-**A repeatable claim-record verification workflow for AI-assisted humanities and heritage interpretation.**
+**A falsifiable review architecture for claims about high-uncertainty, partially deciphered, and undeciphered writing systems — plus related heritage artifacts.**
 
-Claims about ancient scripts spread fast — especially when AI is involved. This toolkit slows that down. Every claim is logged, bounded to one artifact, tied to evidence, and checked by two independent human reviewers before it is trusted.
+AI-assisted interpretation is entering heritage scholarship faster than verification standards. When someone uploads a seal, inscription, or artifact to a language model and gets a polished reading, a second reviewer usually cannot tell what evidence was used, what prompt shaped the answer, or what uncertainty remains. This project provides the missing unit: a **portable, versioned claim record** that bundles bounded evidence, provenance, uncertainty labels, and independent reviewer outcomes into a single citable review object.
+
+The core principle: **AI is logged input, not authority.** Every claim is bounded to one artifact, tied to specific evidence, and checked by two independent human reviewers before it is trusted.
 
 > **Start here:** Open the [completed Ramesses II example](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf) — it shows exactly what a finished, reviewed claim record looks like.
 
@@ -61,17 +63,31 @@ This is worse when AI is involved, because AI outputs can sound authoritative wh
 
 ---
 
+## What this is not
+
+This project **does not claim full decipherment of any undeciphered script.** That is an explicit non-goal. Its contribution is different: it makes gaps, evidence, uncertainty, and reviewer disagreement **legible** through repeatable claim records and independent review. The question is never "What does this script say?" — the question is "Is this claim about this artifact supported by bounded evidence, and do two independent reviewers agree?"
+
+---
+
+## Why Egyptian first
+
+The Ramesses II worked example is not arbitrary. Egyptian offers ground-truth calibration: published sign lists, well-documented artifacts, and consensus readings that allow the protocol itself to be tested. If the claim record produces the wrong outcome on a known case, the protocol is broken. Starting with Egyptian lets us verify the method before extending into harder cases — partially deciphered material like Meroitic, contested readings, and eventually undeciphered systems where "Defer" and "Unproven" are the expected honest outcomes.
+
+---
+
 ## What this is
 
-A **repeatable verification workflow** for evaluating claims about ancient writing and heritage material.
+A **falsifiable review architecture** for evaluating claims about high-uncertainty writing systems and heritage artifacts. The central deliverable is the **claim record** — a portable, bounded, citable evidence packet that did not previously exist in this field.
 
-It includes:
+The toolkit includes:
 
-- a structured one-page review sheet (the **Falsifiability Sheet**),
-- a worked example showing a completed, reviewed sheet,
-- a two-reviewer workflow with defined roles,
-- field labels and a glossary,
+- a structured one-page claim-record form (the **Falsifiability Sheet**),
+- a worked example showing a completed, reviewed claim record,
+- a two-reviewer workflow (R1 verifies evidence trail; R2 stress-tests for contradictions and gaps),
+- field labels for uncertainty, orientation, overlay decisions, and component-level confidence,
 - and a method for recording AI involvement without letting AI act as authority.
+
+The workflow is **model-agnostic** (works with Claude, GPT, Gemini, or no AI at all), **human-auditable** (every decision is logged on one page), and **DOI-anchored** (completed records are archived on Zenodo with persistent identifiers).
 
 This is **not** a tool that asks people to trust AI.
 It is a workflow that asks people to **document claims clearly, review them carefully, and separate evidence from interpretation**.
@@ -143,13 +159,31 @@ The real question is never "Did you use AI?" The real question is: **"Does the e
 
 ## Who this is for
 
-- Humanities researchers working with ancient texts and inscriptions
-- Epigraphers and paleographers
-- Historians evaluating contested or AI-generated readings
-- Digital humanities scholars incorporating AI into artifact analysis
-- Grant reviewers looking for structured verification methods
-- Public-interest AI researchers studying how AI claims are audited
-- Pilot partners interested in stress-testing the method on real material
+**Primary users:** Anyone making or reviewing claims about high-uncertainty heritage material — inscriptions, seals, tablets, and artifacts where evidence is incomplete, contested, or absent.
+
+- Epigraphers and paleographers working with partially deciphered or undeciphered scripts
+- Researchers evaluating AI-generated readings of ancient writing
+- Heritage scholars who need auditable evidence trails for contested interpretations
+- Reviewers and editors who need a structured way to assess claim quality
+
+**Secondary users:** Methodologists and funders interested in verification infrastructure.
+
+- Digital humanities scholars building reproducible workflows
+- Grant reviewers assessing evidence rigor in AI-assisted projects
+- AI accountability researchers studying how model outputs are audited in practice
+
+---
+
+## How this differs from existing tools
+
+| Tool / approach | What it does | What it doesn't do |
+|---|---|---|
+| **TEI-XML / annotation layers** | Encodes textual structure and markup | Does not bundle evidence, uncertainty, and reviewer outcomes into a single auditable unit |
+| **Hypothes.is / margin comments** | Enables inline discussion | No structured claim format, no bounded evidence, no formal review roles |
+| **Peer review (traditional)** | Evaluates full papers post-publication | Does not operate at the level of a single claim about a single artifact |
+| **This project (claim record)** | Bundles one claim + bounded evidence + AI log + R1/R2 outcomes into a portable, citable, falsifiable review object | Does not replace full publication, annotation, or corpus-level analysis |
+
+The claim record operates at a different level of granularity: **one claim, one artifact, one auditable packet.** Nothing else in the field currently provides this.
 
 ---
 
@@ -221,8 +255,8 @@ The sheet version (v5) is higher than the repo version (v1.0-alpha) because the 
 - Blank template and second-reviewer template (downloadable PDFs)
 - One completed worked example with both peer reviews
 - Quick-start guide with field glossary
-- Zenodo integration for archival and community submission
-- The Falsifiability Sheet is designed to be readable by any multimodal AI (e.g., Claude, GPT-4) directly from a photo or scan
+- Zenodo integration for archival and community submission ([zenodo.org/records/18518231](https://zenodo.org/records/18518231))
+- **Machine-readable by design:** The Falsifiability Sheet is structured so that any multimodal AI (Claude, GPT-4, Gemini) can ingest a completed sheet directly from a photo or scan — enabling future automated meta-analysis across claim records without tooling migration
 
 ### Coming next
 
