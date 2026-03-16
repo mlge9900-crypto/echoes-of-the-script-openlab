@@ -24,8 +24,8 @@ Claims about ancient scripts spread fast — especially when AI is involved. Thi
 
 2. **See why it counts** — the sheet below it passed the full trust chain (see [Proof strip](#how-the-trust-chain-works)). That is what makes it a verified claim record, not just a filled-in form.
 
-3. **See the second-reviewer template** — [R2-ready sheet (PDF)](templates/2nd%20rater%20ready%20Falsifiability%20Sheet.pdf)
-   This is the form the independent second reviewer uses to stress-test the claim.
+3. **See the second-reviewer template** — [Second Reviewer Blank Template (PDF)](templates/Second_Reviewer_Blank_Template.pdf)
+   This is the blank form the independent second reviewer uses to stress-test the claim.
 
 4. **Ready to try it yourself?** Jump to [Quick start](#quick-start) or grab a [blank template](templates/Falsifiability_Sheet_v5vai2_Blank.pdf).
 
@@ -128,13 +128,16 @@ The real question is never "Did you use AI?" The real question is: **"Does the e
 
 ## Quick start
 
-1. **See what a finished sheet looks like** — open [`worked-examples/`](worked-examples/) for a completed Ramesses II sheet with both peer reviews and a final outcome.
+1. **See what a finished sheet looks like** — open the [Ramesses II worked example (PDF)](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf) for a completed sheet with both peer reviews and a final outcome.
 2. **Read the one-page guide** — open [`quickstart/`](quickstart/) for every step and field label on one page, with a glossary on the right.
-3. **Download a template** — go to [`templates/`](templates/) and grab:
-   - **Blank Sheet** — start from scratch with your own artifact and claim
-   - **Second-reviewer Sheet** — pre-formatted for an independent second review
+3. **Download a template:**
+   - [**Blank Sheet**](templates/Falsifiability_Sheet_v5vai2_Blank.pdf) — start from scratch with your own artifact and claim
+   - [**Second Reviewer Blank Template**](templates/Second_Reviewer_Blank_Template.pdf) — blank form for the independent second reviewer
 4. **Compare** the claim, evidence, reviewer notes, and outcome across the example and the blank.
 5. **Try the workflow on one small case** — start with well-understood material (e.g., Egyptian hieroglyphs) to learn the form before tackling contested or undeciphered scripts.
+
+> **Three documents, three purposes:**
+> The *worked example* shows what a finished, reviewed sheet looks like. The *blank sheet* is where the original author records their claim and evidence. The *second reviewer blank template* is a separate form for the independent second reviewer — it is not a copy of the blank sheet.
 
 ---
 
