@@ -1,6 +1,6 @@
-# Echoes of the Script — OpenLab for Ancient Scripts
+# Echoes of the Script — OpenLab
 
-**A one-page peer-review form that makes ancient script claims testable, traceable, and auditable — including claims made with AI.**
+**A repeatable review workflow for ancient-script claims — including AI-assisted claims — built to make evidence traceable, testable, and reviewable.**
 
 | | |
 |---|---|
@@ -16,74 +16,112 @@
 
 ## The problem
 
-Someone studies an ancient inscription and says: *"This symbol means X."* But where's the evidence? Which sources did they check? Did anyone else verify it? And if they used ChatGPT or Claude to help — did they log what the AI said, and did it actually hold up?
+Claims about ancient scripts can spread quickly, especially when AI is involved.
+But many of those claims are hard to check. A reader often cannot tell:
 
-Right now, there's no standard way to answer those questions. Claims about ancient scripts get shared, cited, and built on — without a traceable evidence trail or independent review.
+- what evidence was used,
+- what image or object was examined,
+- what was inferred versus directly observed,
+- whether another reviewer checked the claim,
+- or whether AI was treated as evidence instead of just input.
+
+This project exists to slow that problem down and make claims easier to inspect.
 
 ## What this is
 
-This toolkit gives you a **Falsifiability Sheet** — a one-page structured form you fill out for a single claim about a single artifact. It forces you to:
+This repository houses a **repeatable verification workflow** for evaluating claims about ancient writing and related heritage material.
 
-1. **State one testable claim** (not a theory — one specific, falsifiable sentence)
-2. **Record where the artifact comes from** (museum, collection, catalog ID, stable URL)
-3. **Log which evidence you actually checked** (sign lists, object descriptions, provenance records)
-4. **Rate your own confidence** for each part of your analysis, separately
-5. **Log any AI output** and rate whether it was supported, incomplete, or contradicted by the evidence
-6. **Get two independent peer reviews** — one verifies your evidence trail, the other stress-tests for gaps
-7. **Record a final outcome**: Confirmed, Revise, Defer, or Unproven
+It includes:
 
-The result is a single auditable page. Anyone can pick it up, see what you claimed, what you checked, what the AI said, what the reviewers found, and whether the claim held.
+- a structured one-page review sheet (the **Falsifiability Sheet**),
+- worked examples showing completed sheets,
+- a two-reviewer workflow with defined roles,
+- field labels and a glossary,
+- and a method for recording how AI tools were used without letting them act as authority.
+
+This is **not** a tool that asks people to trust AI.
+It is a workflow that asks people to **document claims clearly, review them carefully, and separate evidence from interpretation**.
 
 ## How it works
 
-```
-You claim          →  You fill the sheet  →  Reviewer 1         →  Reviewer 2         →  Outcome
-"This cartouche       (artifact, source,     checks your           stress-tests for      Confirmed /
-reads Ramesses II"    evidence, confidence,  evidence trail        contradictions        Revise /
-                      AI output if used)                           and gaps              Defer /
-                                                                                         Unproven
-```
+The workflow is simple at a high level:
 
-That's it. One artifact, one claim, one sheet. No claim gets published without a traceable trail and two independent checks.
+**claim → fill sheet → reviewer 1 → reviewer 2 → outcome**
 
-**Lean option:** A LIGHT pass logs traceability and provisional confidence (good for early-stage work). A FULL pass adds both peer reviews (required for anything public-facing).
+In practice, that means:
+
+1. A researcher identifies one artifact and writes one testable claim about it.
+2. The supporting evidence is recorded — which sources were checked, which were not.
+3. The object, image, or inscription is described with provenance (museum, collection ID, stable URL).
+4. The researcher notes what is directly visible versus inferred, and rates confidence separately for each component.
+5. AI output, if used, is logged as input and rated: supported, incomplete, or contradicted.
+6. A first reviewer verifies the evidence trail (not just the conclusion).
+7. A second reviewer checks independently, stress-testing for contradictions and gaps.
+8. The final outcome is recorded: **Confirmed**, **Revise**, **Defer**, or **Unproven**.
+
+The result is a single auditable page. Anyone can pick it up and see what was claimed, what was checked, what the reviewers found, and whether the claim held.
+
+## Example output
+
+Below is a completed sheet from the Ramesses II worked example (British Museum EA1006). You can download the full PDF from [`worked-examples/`](worked-examples/).
+
+<!-- TODO: embed a screenshot of the completed Ramesses II sheet here -->
+<!-- Convert the worked-examples PDF to a PNG and add: -->
+<!-- ![Completed Falsifiability Sheet — Ramesses II](assets/ramesses-ii-example.png) -->
+
+*To see the full completed sheet now, open [`worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf`](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf).*
 
 ## How ChatGPT fits into this workflow
 
-AI (ChatGPT, Claude, Gemini, etc.) is treated as **logged input, not authority.**
+AI tools such as ChatGPT, Claude, or Gemini may be used inside this workflow, but their role is limited.
 
-Here's what that means in practice:
+**AI can:**
+- suggest interpretations,
+- summarize visible patterns,
+- offer possible readings,
+- help generate comparison ideas,
+- support structured note-taking.
 
-- **You can use AI** — to read glyphs, suggest interpretations, identify parallels, check sign lists, or anything else. There is no penalty for using it.
-- **You must log what it said** — paste the AI's output into the "AI comments" section of the sheet.
-- **You must rate it honestly** using a traffic light:
-  - **Green:** AI output is supported by the physical evidence and published sources
-  - **Yellow:** AI output is plausible but incomplete — evidence doesn't fully confirm or deny it
-  - **Red:** AI output is contradicted by the evidence, or makes unsupported leaps
-- **Reviewers see the AI output** — both peer reviewers can check whether you rated the AI fairly and whether it influenced your conclusion without justification.
+**AI cannot:**
+- act as final authority,
+- replace reviewer judgment,
+- raise confidence by itself,
+- count as evidence on its own.
 
-The Falsifiability Sheet does not ban AI. It audits AI. The question is never "did you use AI?" — it's "does the evidence support what the AI said?"
+The key rule is: **AI is logged input, not authority.**
+
+In practice, that means: paste the AI's output into the "AI comments" section of the sheet, then rate it using a traffic light:
+
+- **Green:** AI output is supported by the physical evidence and published sources.
+- **Yellow:** AI output is plausible but incomplete — evidence doesn't fully confirm or deny it.
+- **Red:** AI output is contradicted by the evidence, or makes unsupported leaps.
+
+Both peer reviewers see the AI output and can check whether it was rated fairly.
+
+The real question is never just "Did you use AI?"
+The real question is: **"Does the evidence support what the AI suggested?"**
 
 ## Quick start
 
-### 1. See what a finished sheet looks like
+1. **See what a finished sheet looks like** — open [`worked-examples/`](worked-examples/) for a completed Ramesses II sheet with both peer reviews and a final outcome.
+2. **Read the one-page guide** — open [`quickstart/`](quickstart/) for every step and field label on one page, with a glossary on the right.
+3. **Download a template** — go to [`templates/`](templates/) and grab:
+   - **Blank Sheet** — start from scratch with your own artifact and claim
+   - **Second-reviewer Sheet** — pre-formatted for someone doing the second peer review
+4. **Compare** the claim, evidence, reviewer notes, and outcome across the example and the blank.
+5. **Try the workflow on one small case** — start with well-understood material (e.g., Egyptian hieroglyphs) to learn the form before tackling contested or undeciphered scripts.
 
-Check [`worked-examples/`](worked-examples/) — a fully completed sheet using a Ramesses II cartouche from the British Museum (EA1006). This shows every field filled in, both peer reviews recorded, and a final outcome of "Confirmed."
+## Who this is for
 
-### 2. Read the one-page guide
+- Humanities researchers working with ancient texts and inscriptions
+- Epigraphers and paleographers
+- Historians evaluating contested or AI-generated readings
+- Digital humanities scholars incorporating AI into artifact analysis
+- Grant reviewers looking for structured verification methods
+- Public-interest AI researchers studying how AI claims are audited
+- Pilot partners interested in stress-testing the method on real material
 
-Open [`quickstart/`](quickstart/) — a one-page PDF that lists every step and every field label, with a glossary on the right side.
-
-### 3. Download a template and try it
-
-Go to [`templates/`](templates/) and grab:
-
-- **Blank Sheet** — start from scratch with your own artifact and claim
-- **Second-reviewer Sheet** — pre-formatted for someone doing the second peer review
-
-**Tip:** Start with well-understood material (e.g., Egyptian hieroglyphs) to learn the form before tackling contested or undeciphered scripts.
-
-## The 12-step workflow
+## The full workflow (12 steps)
 
 | Step | What you do |
 |------|-------------|
@@ -100,12 +138,14 @@ Go to [`templates/`](templates/) and grab:
 | 11 | Log **outcome**: Confirmed / Revise / Defer / Unproven — if reviewers disagree, log both |
 | 12 | **Publish** the completed sheet (PDF) with back-links to source records |
 
+**Lean option:** A LIGHT pass logs traceability and provisional confidence (good for early-stage work). A FULL pass adds both peer reviews (required for anything public-facing).
+
 ## Field labels (glossary)
 
 The sheet uses short labels to fit on one page. Here's what they mean:
 
 | On the sheet | What it means |
-|------|---------|
+|---|---|
 | **CISI** | Collection/Institution + stable identifier (e.g., "British Museum EA1006") |
 | **ORI** | Orientation — the reading direction you chose (left-to-right, right-to-left, or N/A) |
 | **OVR** | Overlay — an alignment or mapping you applied to test your hypothesis; N/A if not used |
@@ -117,18 +157,21 @@ The sheet uses short labels to fit on one page. Here's what they mean:
 | **AI G/Y/R** | AI traffic light — Green (supported), Yellow (incomplete), Red (contradicted) |
 | **Out of scope** | Damaged or unclear artifacts, or claims that can't be responsibly tested with available evidence |
 
-## Who is this for?
-
-- Researchers and academics working with ancient texts and inscriptions
-- Students learning epigraphic or paleographic methods
-- Digital humanities scholars incorporating AI into artifact analysis
-- Anyone who wants a structured, falsifiable approach to interpreting ancient writing
-
 ## Submit your work
+
+Interested in testing the workflow on a real case? I'm currently looking for:
+
+- 2–3 serious testers willing to run the sheet on their own material,
+- reviewer feedback on the workflow and field labels,
+- and pilot collaborators who want to stress-test the method on real cases.
+
+To submit a completed sheet to the community archive:
 
 1. Read the [Zenodo record abstract](https://zenodo.org/records/18518231) — it explains how community submission works
 2. Complete both peer reviews (reviewer 1 and reviewer 2)
 3. Submit your finished sheet to the Zenodo community using the instructions in the abstract
+
+To get in touch: [mlge9900@gmail.com](mailto:mlge9900@gmail.com)
 
 ## Repository structure
 
@@ -148,6 +191,7 @@ This project is currently a **prototype**. The Falsifiability Sheet is designed 
 - Web-based form with structured data output (JSON)
 - Validation tooling to auto-check field completeness and consistency
 - Scalable deployment across institutions and research communities
+- Additional worked examples across different script traditions
 
 ## Support the Open Lab
 
