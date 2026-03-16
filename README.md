@@ -63,13 +63,11 @@ The result is a single auditable page. Anyone can pick it up and see what was cl
 
 ## Example output
 
-Below is a completed sheet from the Ramesses II worked example (British Museum EA1006). You can download the full PDF from [`worked-examples/`](worked-examples/).
+A completed Falsifiability Sheet for a Ramesses II cartouche (British Museum EA1006). One claim, one artifact, both peer reviews recorded, outcome: Confirmed.
 
-<!-- TODO: embed a screenshot of the completed Ramesses II sheet here -->
-<!-- Convert the worked-examples PDF to a PNG and add: -->
-<!-- ![Completed Falsifiability Sheet — Ramesses II](assets/ramesses-ii-example.png) -->
+![Completed Falsifiability Sheet — Ramesses II cartouche, British Museum EA1006](assets/ramesses-ii-example.png)
 
-*To see the full completed sheet now, open [`worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf`](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf).*
+[Download the full worked-example PDF](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf)
 
 ## How ChatGPT fits into this workflow
 
