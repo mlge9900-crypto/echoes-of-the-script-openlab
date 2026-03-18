@@ -1,39 +1,92 @@
 # Echoes of the Script — OpenLab
 
-**A falsifiable review architecture for claims about high-uncertainty, partially deciphered, and undeciphered writing systems — plus related heritage artifacts.**
-
-AI-assisted interpretation is entering heritage scholarship faster than verification standards. When someone uploads a seal, inscription, or artifact to a language model and gets a polished reading, a second reviewer usually cannot tell what evidence was used, what prompt shaped the answer, or what uncertainty remains. This project provides the missing unit: a **portable, versioned claim record** that bundles bounded evidence, provenance, uncertainty labels, and independent reviewer outcomes into a single citable review object.
-
-The core principle: **AI is logged input, not authority.** Every claim is bounded to one artifact, tied to specific evidence, and checked by two independent human reviewers before it is trusted.
-
-> **Start here:** Open the [completed Ramesses II example](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf) — it shows exactly what a finished, reviewed claim record looks like.
-
-| | |
-|---|---|
-| **Status** | Prototype — actively maintained |
-| **Repo version** | v1.0-alpha |
-| **Sheet version** | Falsifiability Sheet v5 |
-| **License** | [MPL-2.0](LICENSE) (code) · CC BY 4.0 (sheet content) |
-| **Zenodo** | [zenodo.org/records/18518231](https://zenodo.org/records/18518231) |
-| **Cite this** | See [CITATION.cff](CITATION.cff) |
+> Everybody in the room has interpretations, and AI can make those interpretations sound more certain than they really are.
 
 ---
 
-## Start here in 3 minutes
+## The Real Problem
 
-1. **Open the finished worked example** — [Ramesses II Falsifiability Sheet (PDF)](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf)
-   One claim. One artifact. Evidence logged. Both peer reviews recorded. Outcome: Confirmed.
+Someone uploads a photo of a seal, an inscription, or a cartouche to a language model. The model returns a fluent, confident reading. It sounds right. It might even be right.
 
-2. **See why it counts** — the sheet below it passed the full trust chain (see [Proof strip](#how-the-trust-chain-works)). That is what makes it a verified claim record, not just a filled-in form.
+But a second person looking at that claim cannot tell:
 
-3. **See the second-reviewer template** — [Second Reviewer Blank Template (PDF)](templates/Second_Reviewer_Blank_Template.pdf)
-   This is the blank form the independent second reviewer uses to stress-test the claim.
+- what evidence was actually used,
+- what was observed versus what was inferred,
+- whether AI was treated as evidence or just logged as input,
+- or whether anyone else reviewed the claim independently.
 
-4. **Ready to try it yourself?** Jump to [Quick start](#quick-start) or grab a [blank template](templates/Falsifiability_Sheet_v5vai2_Blank.pdf).
+This gap is growing. AI-assisted interpretation is entering heritage scholarship faster than verification standards. The result is not necessarily bad scholarship — it is **unauditable** scholarship. Claims circulate without a way to inspect the pressure points, test the evidence, or surface honest disagreement.
 
 ---
 
-## How the trust chain works
+## What This Project Is
+
+A **falsifiable review architecture** for claims about high-uncertainty writing systems and heritage artifacts.
+
+The central deliverable is not a tool, a platform, or a model. It is a **claim record** — a portable, versioned, citable evidence packet that bundles one claim about one artifact with bounded evidence, uncertainty labels, AI logs, and two independent reviewer outcomes. This unit did not previously exist in the field.
+
+The core principle: **AI is logged input, not authority.**
+
+The workflow is **model-agnostic** (works with Claude, GPT, Gemini, or no AI at all), **human-auditable** (every decision is logged on one page), and **DOI-anchored** (completed records are archived on Zenodo with persistent identifiers).
+
+---
+
+## The Easiest Way In
+
+Open the completed Ramesses II example. One claim. One artifact. Evidence logged. Both peer reviews recorded. Outcome: Confirmed.
+
+**[→ Open the worked example (PDF)](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf)**
+
+That single sheet is the entire project in miniature. Every field is filled in. Both reviewers recorded their independent assessments. The outcome is logged. The evidence trail is inspectable by a stranger.
+
+If you read one thing, read that.
+
+---
+
+## Example Output
+
+A completed Falsifiability Sheet for a Ramesses II cartouche (British Museum EA1006):
+
+![Completed Falsifiability Sheet — Ramesses II cartouche, British Museum EA1006](assets/ramesses-ii-example.png)
+
+[Download the full worked-example PDF](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf)
+
+---
+
+## Why This Matters Beyond Egypt
+
+The Ramesses II example is not the point. It is the **calibration**.
+
+Egyptian offers ground-truth: published sign lists, well-documented artifacts, consensus readings. If the claim record produces the wrong outcome on a known case, the protocol is broken. Starting where answers exist lets us test the method before extending into harder territory.
+
+The real work ahead is partially deciphered material like Meroitic, contested readings, and eventually undeciphered systems — cases where "Defer" and "Unproven" are the expected honest outcomes, not failures.
+
+The protocol is designed for the cases where nobody in the room is certain, and the job is to make that uncertainty **legible** rather than hidden.
+
+---
+
+## The Deeper Question
+
+This project is not mainly about being right. It is about surfacing:
+
+- where evidence is strong,
+- where interpretation begins,
+- where disagreement lives,
+- and where the real void still is.
+
+The question behind the workflow:
+
+> **How do we build a process that helps serious people disagree well, surface the real voids, and test whether AI is helping — versus merely reinforcing confidence?**
+
+The claim record is one answer. It forces every claim into a bounded format where evidence, uncertainty, AI involvement, and reviewer disagreement are all visible on the same page. It does not resolve disagreement. It makes disagreement readable.
+
+---
+
+## How the Workflow Works
+
+At a high level:
+
+**claim → fill sheet → reviewer 1 → reviewer 2 → outcome**
 
 A completed sheet carries weight because it passed every stage of this chain:
 
@@ -46,65 +99,30 @@ Reviewer 2 checked      →  Independent stress-test for contradictions and gaps
 Outcome recorded        →  Confirmed · Revise · Defer · Unproven
 ```
 
-No stage can be skipped. If both reviewers are not recorded, the sheet is provisional, not verified. The worked example shows every stage completed.
+No stage can be skipped. If both reviewers are not recorded, the sheet is provisional, not verified.
+
+### The full 12 steps
+
+| Step | What you do |
+|------|-------------|
+| 1 | Pick **one artifact** and write **one testable claim** (one sentence) |
+| 2 | Fill in **context**: where it's from, what period, what collection/museum, catalog ID, stable URL or DOI |
+| 3 | Record **reading direction** (left-to-right, right-to-left, or mark N/A if unknown — don't guess) |
+| 4 | Record **overlay/alignment choice** if you used one to map your hypothesis; mark N/A if not used |
+| 5 | Check only the **evidence types you actually consulted** (sign list, object description, provenance record, etc.) |
+| 6 | Set **confidence separately** for each component: transcription/reading, category (person/animal/object), reading direction, glyph/overlay |
+| 7 | Write **1–3 prep notes** justifying your confidence ratings (short, factual, citeable) |
+| 8 | If you used AI: paste the output into **AI comments** and rate it Green / Yellow / Red |
+| 9 | **Reviewer 1**: a reviewer verifies your evidence trail (not just your conclusion) |
+| 10 | **Reviewer 2**: a second reviewer stress-tests for contradictions, alternatives, or gaps |
+| 11 | Log **outcome**: Confirmed / Revise / Defer / Unproven — if reviewers disagree, log both |
+| 12 | **Publish** the completed sheet (PDF) with back-links to source records |
+
+**Lean option:** A LIGHT pass logs traceability and provisional confidence (good for early-stage work). A FULL pass adds both peer reviews (required for anything public-facing).
 
 ---
 
-## The problem
-
-Claims about ancient scripts are hard to check. A reader often cannot tell:
-
-- what evidence was used,
-- what was inferred versus directly observed,
-- whether AI was treated as evidence instead of logged input,
-- or whether anyone else reviewed the claim independently.
-
-This is worse when AI is involved, because AI outputs can sound authoritative while being wrong. This project exists to make claims inspectable and reviewable.
-
----
-
-## What this is not
-
-This project **does not claim full decipherment of any undeciphered script.** That is an explicit non-goal. Its contribution is different: it makes gaps, evidence, uncertainty, and reviewer disagreement **legible** through repeatable claim records and independent review. The question is never "What does this script say?" — the question is "Is this claim about this artifact supported by bounded evidence, and do two independent reviewers agree?"
-
----
-
-## Why Egyptian first
-
-The Ramesses II worked example is not arbitrary. Egyptian offers ground-truth calibration: published sign lists, well-documented artifacts, and consensus readings that allow the protocol itself to be tested. If the claim record produces the wrong outcome on a known case, the protocol is broken. Starting with Egyptian lets us verify the method before extending into harder cases — partially deciphered material like Meroitic, contested readings, and eventually undeciphered systems where "Defer" and "Unproven" are the expected honest outcomes.
-
----
-
-## What this is
-
-A **falsifiable review architecture** for evaluating claims about high-uncertainty writing systems and heritage artifacts. The central deliverable is the **claim record** — a portable, bounded, citable evidence packet that did not previously exist in this field.
-
-The toolkit includes:
-
-- a structured one-page claim-record form (the **Falsifiability Sheet**),
-- a worked example showing a completed, reviewed claim record,
-- a two-reviewer workflow (R1 verifies evidence trail; R2 stress-tests for contradictions and gaps),
-- field labels for uncertainty, orientation, overlay decisions, and component-level confidence,
-- and a method for recording AI involvement without letting AI act as authority.
-
-The workflow is **model-agnostic** (works with Claude, GPT, Gemini, or no AI at all), **human-auditable** (every decision is logged on one page), and **DOI-anchored** (completed records are archived on Zenodo with persistent identifiers).
-
-This is **not** a tool that asks people to trust AI.
-It is a workflow that asks people to **document claims clearly, review them carefully, and separate evidence from interpretation**.
-
----
-
-## Example output
-
-A completed Falsifiability Sheet for a Ramesses II cartouche (British Museum EA1006). One claim, one artifact, both peer reviews recorded, outcome: Confirmed.
-
-![Completed Falsifiability Sheet — Ramesses II cartouche, British Museum EA1006](assets/ramesses-ii-example.png)
-
-[Download the full worked-example PDF](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf)
-
----
-
-## How ChatGPT / AI fits into this workflow
+## How AI Fits
 
 AI tools (ChatGPT, Claude, Gemini, or others) can be used inside this workflow. Their role is strictly limited: **AI is logged input, not authority.**
 
@@ -142,31 +160,41 @@ The real question is never "Did you use AI?" The real question is: **"Does the e
 
 ---
 
-## Quick start
+## Start Here
 
-1. **See what a finished sheet looks like** — open the [Ramesses II worked example (PDF)](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf) for a completed sheet with both peer reviews and a final outcome.
-2. **Read the one-page guide** — open [`quickstart/`](quickstart/) for every step and field label on one page, with a glossary on the right.
+1. **See what done looks like** — open the [Ramesses II worked example (PDF)](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf).
+2. **Read the one-page guide** — open [`quickstart/`](quickstart/) for every step and field label on one page.
 3. **Download a template:**
    - [**Blank Sheet**](templates/Falsifiability_Sheet_v5vai2_Blank.pdf) — start from scratch with your own artifact and claim
    - [**Second Reviewer Blank Template**](templates/Second_Reviewer_Blank_Template.pdf) — blank form for the independent second reviewer
 4. **Compare** the claim, evidence, reviewer notes, and outcome across the example and the blank.
-5. **Try the workflow on one small case** — start with well-understood material (e.g., Egyptian hieroglyphs) to learn the form before tackling contested or undeciphered scripts.
+5. **Try the workflow on one small case** — start with well-understood material to learn the form before tackling contested or undeciphered scripts.
 
 > **Three documents, three purposes:**
 > The *worked example* shows what a finished, reviewed sheet looks like. The *blank sheet* is where the original author records their claim and evidence. The *second reviewer blank template* is a separate form for the independent second reviewer — it is not a copy of the blank sheet.
 
 ---
 
-## Who this is for
+## What This Is Not
 
-**Primary users:** Anyone making or reviewing claims about high-uncertainty heritage material — inscriptions, seals, tablets, and artifacts where evidence is incomplete, contested, or absent.
+This project **does not claim full decipherment of any undeciphered script.** That is an explicit non-goal.
+
+Its contribution is different: it makes gaps, evidence, uncertainty, and reviewer disagreement **legible** through repeatable claim records and independent review.
+
+The question is never "What does this script say?" — the question is "Is this claim about this artifact supported by bounded evidence, and do two independent reviewers agree?"
+
+---
+
+## Who This Is For
+
+**Primary:** Anyone making or reviewing claims about high-uncertainty heritage material — inscriptions, seals, tablets, and artifacts where evidence is incomplete, contested, or absent.
 
 - Epigraphers and paleographers working with partially deciphered or undeciphered scripts
 - Researchers evaluating AI-generated readings of ancient writing
 - Heritage scholars who need auditable evidence trails for contested interpretations
 - Reviewers and editors who need a structured way to assess claim quality
 
-**Secondary users:** Methodologists and funders interested in verification infrastructure.
+**Secondary:** Methodologists and funders interested in verification infrastructure.
 
 - Digital humanities scholars building reproducible workflows
 - Grant reviewers assessing evidence rigor in AI-assisted projects
@@ -174,7 +202,7 @@ The real question is never "Did you use AI?" The real question is: **"Does the e
 
 ---
 
-## How this differs from existing tools
+## How This Differs from Existing Tools
 
 | Tool / approach | What it does | What it doesn't do |
 |---|---|---|
@@ -187,34 +215,65 @@ The claim record operates at a different level of granularity: **one claim, one 
 
 ---
 
-## How it works (the full 12 steps)
+## Current Build
 
-The workflow is simple at a high level:
+| | |
+|---|---|
+| **Status** | Prototype — actively maintained |
+| **Repo version** | v1.0-alpha |
+| **Sheet version** | Falsifiability Sheet v5 |
+| **License** | [MPL-2.0](LICENSE) (code) · CC BY 4.0 (sheet content) |
+| **Zenodo** | [zenodo.org/records/18518231](https://zenodo.org/records/18518231) |
+| **Cite this** | See [CITATION.cff](CITATION.cff) |
 
-**claim → fill sheet → reviewer 1 → reviewer 2 → outcome**
+### Usable now
 
-In practice:
+- Full paper/PDF-based workflow — no software installation required
+- Blank template and second-reviewer template (downloadable PDFs)
+- One completed worked example with both peer reviews
+- Quick-start guide with field glossary
+- Zenodo integration for archival and community submission ([zenodo.org/records/18518231](https://zenodo.org/records/18518231))
+- **Machine-readable by design:** The Falsifiability Sheet is structured so that any multimodal AI (Claude, GPT-4, Gemini) can ingest a completed sheet directly from a photo or scan — enabling future automated meta-analysis across claim records without tooling migration
 
-| Step | What you do |
-|------|-------------|
-| 1 | Pick **one artifact** and write **one testable claim** (one sentence) |
-| 2 | Fill in **context**: where it's from, what period, what collection/museum, catalog ID, stable URL or DOI |
-| 3 | Record **reading direction** (left-to-right, right-to-left, or mark N/A if unknown — don't guess) |
-| 4 | Record **overlay/alignment choice** if you used one to map your hypothesis; mark N/A if not used |
-| 5 | Check only the **evidence types you actually consulted** (sign list, object description, provenance record, etc.) |
-| 6 | Set **confidence separately** for each component: transcription/reading, category (person/animal/object), reading direction, glyph/overlay |
-| 7 | Write **1–3 prep notes** justifying your confidence ratings (short, factual, citeable) |
-| 8 | If you used AI: paste the output into **AI comments** and rate it Green / Yellow / Red (see above) |
-| 9 | **Reviewer 1**: a reviewer verifies your evidence trail (not just your conclusion) |
-| 10 | **Reviewer 2**: a second reviewer stress-tests for contradictions, alternatives, or gaps |
-| 11 | Log **outcome**: Confirmed / Revise / Defer / Unproven — if reviewers disagree, log both |
-| 12 | **Publish** the completed sheet (PDF) with back-links to source records |
+### Coming next
 
-**Lean option:** A LIGHT pass logs traceability and provisional confidence (good for early-stage work). A FULL pass adds both peer reviews (required for anything public-facing).
+- Additional worked examples across different script traditions
+- Web-based form with structured data output (JSON)
+- Validation tooling to auto-check field completeness and consistency
+- Scalable deployment across institutions and research communities
 
 ---
 
-## Field labels (glossary)
+## Submit Your Work
+
+Interested in testing the workflow on a real case? I'm currently looking for:
+
+- 2–3 serious testers willing to run the sheet on their own material,
+- reviewer feedback on the workflow and field labels,
+- and pilot collaborators who want to stress-test the method on real cases.
+
+To submit a completed sheet to the community archive:
+
+1. Read the [Zenodo record abstract](https://zenodo.org/records/18518231) — it explains how community submission works
+2. Complete both peer reviews (Reviewer 1 and Reviewer 2)
+3. Submit your finished sheet to the Zenodo community using the instructions in the abstract
+
+To get in touch: [mlge9900@gmail.com](mailto:mlge9900@gmail.com)
+
+---
+
+## Repository Structure
+
+```
+quickstart/       → One-page quick-start guide (PDF)
+templates/        → Blank sheet + second-reviewer sheet (PDFs)
+worked-examples/  → Ramesses II fully worked example (PDF)
+assets/           → Images used in this README
+```
+
+---
+
+## Field Labels (glossary)
 
 The sheet uses short labels to fit on one page. Here's what they mean:
 
@@ -244,55 +303,6 @@ This project has three version numbers. They are independent:
 | **Workflow maturity** | Prototype | The overall readiness level for public use |
 
 The sheet version (v5) is higher than the repo version (v1.0-alpha) because the sheet went through several iterations before this repository was created. This is normal — the method predates the repo.
-
----
-
-## What works now vs. what comes next
-
-### Usable now
-
-- Full paper/PDF-based workflow — no software installation required
-- Blank template and second-reviewer template (downloadable PDFs)
-- One completed worked example with both peer reviews
-- Quick-start guide with field glossary
-- Zenodo integration for archival and community submission ([zenodo.org/records/18518231](https://zenodo.org/records/18518231))
-- **Machine-readable by design:** The Falsifiability Sheet is structured so that any multimodal AI (Claude, GPT-4, Gemini) can ingest a completed sheet directly from a photo or scan — enabling future automated meta-analysis across claim records without tooling migration
-
-### Coming next
-
-- Additional worked examples across different script traditions
-- Web-based form with structured data output (JSON)
-- Validation tooling to auto-check field completeness and consistency
-- Scalable deployment across institutions and research communities
-
----
-
-## Submit your work
-
-Interested in testing the workflow on a real case? I'm currently looking for:
-
-- 2–3 serious testers willing to run the sheet on their own material,
-- reviewer feedback on the workflow and field labels,
-- and pilot collaborators who want to stress-test the method on real cases.
-
-To submit a completed sheet to the community archive:
-
-1. Read the [Zenodo record abstract](https://zenodo.org/records/18518231) — it explains how community submission works
-2. Complete both peer reviews (Reviewer 1 and Reviewer 2)
-3. Submit your finished sheet to the Zenodo community using the instructions in the abstract
-
-To get in touch: [mlge9900@gmail.com](mailto:mlge9900@gmail.com)
-
----
-
-## Repository structure
-
-```
-quickstart/       → One-page quick-start guide (PDF)
-templates/        → Blank sheet + second-reviewer sheet (PDFs)
-worked-examples/  → Ramesses II fully worked example (PDF)
-assets/           → Images used in this README
-```
 
 ---
 
