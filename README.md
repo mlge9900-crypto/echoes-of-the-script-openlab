@@ -1,6 +1,8 @@
 # Echoes of the Script — OpenLab
 
-> Everybody in the room has interpretations, and AI can make those interpretations sound more certain than they really are.
+Everybody in the room has interpretations, and AI can make those interpretations sound more certain than they really are.
+
+That is the problem this project exists to address.
 
 ---
 
@@ -8,20 +10,22 @@
 
 Someone uploads a photo of a seal, an inscription, or a cartouche to a language model. The model returns a fluent, confident reading. It sounds right. It might even be right.
 
-But a second person looking at that claim cannot tell:
+But a second person looking at that claim has no way to see:
 
 - what evidence was actually used,
 - what was observed versus what was inferred,
 - whether AI was treated as evidence or just logged as input,
 - or whether anyone else reviewed the claim independently.
 
-This gap is growing. AI-assisted interpretation is entering heritage scholarship faster than verification standards. The result is not necessarily bad scholarship — it is **unauditable** scholarship. Claims circulate without a way to inspect the pressure points, test the evidence, or surface honest disagreement.
+And that gap is compounding. AI-assisted interpretation is entering heritage scholarship faster than verification standards. Interpretations harden. Confidence builds on confidence. The places where nobody actually knows — the real voids — get papered over instead of marked.
+
+The result is not necessarily bad scholarship. It is **unauditable** scholarship — claims circulating without a way to inspect the pressure points, test the evidence, or surface honest disagreement.
 
 ---
 
 ## What This Project Is
 
-A **falsifiable review architecture** for claims about high-uncertainty writing systems and heritage artifacts.
+A workflow built to expose the pressure points: where evidence is strong, where interpretation begins, where reviewers disagree, and where the void remains.
 
 The central deliverable is not a tool, a platform, or a model. It is a **claim record** — a portable, versioned, citable evidence packet that bundles one claim about one artifact with bounded evidence, uncertainty labels, AI logs, and two independent reviewer outcomes. This unit did not previously exist in the field.
 
@@ -59,7 +63,7 @@ The Ramesses II example is not the point. It is the **calibration**.
 
 Egyptian offers ground-truth: published sign lists, well-documented artifacts, consensus readings. If the claim record produces the wrong outcome on a known case, the protocol is broken. Starting where answers exist lets us test the method before extending into harder territory.
 
-The real work ahead is partially deciphered material like Meroitic, contested readings, and eventually undeciphered systems — cases where "Defer" and "Unproven" are the expected honest outcomes, not failures.
+The real work ahead is partially deciphered material like Meroitic, contested readings, and eventually undeciphered systems — cases where "Defer" and "Unproven" are the expected honest outcomes, not failures. These are also the cases where unchecked interpretations do the most damage, because there is less consensus to push back against a confident-sounding claim.
 
 The protocol is designed for the cases where nobody in the room is certain, and the job is to make that uncertainty **legible** rather than hidden.
 
@@ -67,18 +71,15 @@ The protocol is designed for the cases where nobody in the room is certain, and 
 
 ## The Deeper Question
 
-This project is not mainly about being right. It is about surfacing:
+This project is not mainly about being right.
 
-- where evidence is strong,
-- where interpretation begins,
-- where disagreement lives,
-- and where the real void still is.
+It is about making it possible to see — on one page — where evidence is strong, where interpretation begins, where two reviewers disagree, and where the real void still is. Those are the pressure points that matter, and they are exactly what gets lost when a claim circulates without structure.
 
 The question behind the workflow:
 
-> **How do we build a process that helps serious people disagree well, surface the real voids, and test whether AI is helping — versus merely reinforcing confidence?**
+> **How do we build a process that helps adults disagree well, surface the real voids, and test whether AI is helping — versus merely reinforcing confidence?**
 
-The claim record is one answer. It forces every claim into a bounded format where evidence, uncertainty, AI involvement, and reviewer disagreement are all visible on the same page. It does not resolve disagreement. It makes disagreement readable.
+The claim record is one answer. It forces every claim into a bounded format where evidence, uncertainty, AI involvement, and reviewer disagreement are all visible on the same page. It does not resolve disagreement. It makes disagreement **readable**.
 
 ---
 
