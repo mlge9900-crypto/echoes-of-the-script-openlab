@@ -41,9 +41,15 @@ Open the completed Ramesses II example. One claim. One artifact. Evidence logged
 
 **[→ Open the worked example (PDF)](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf)**
 
-That single sheet is the entire project in miniature. Every field is filled in. Both reviewers recorded their independent assessments. The outcome is logged. The evidence trail is inspectable by a stranger.
+A completed sheet shows the claim. The [second-reviewer sheet](templates/Second_Reviewer_Blank_Template.pdf) shows whether the claim survives independent pressure. Without a second reviewer, a sheet is provisional. With independent review recorded, it becomes meaningfully auditable.
 
-If you read one thing, read that.
+Three documents, three purposes:
+
+1. **The worked example** — a finished, reviewed sheet so you can see what done looks like.
+2. **The [second-reviewer blank](templates/Second_Reviewer_Blank_Template.pdf)** — where an independent reviewer pressure-tests the claim for contradictions, alternatives, or gaps.
+3. **The [blank sheet](templates/Falsifiability_Sheet_v5vai2_Blank.pdf)** — where you record your own claim and evidence from scratch.
+
+If you read one thing, read the worked example. If you want to understand the method in motion, read it alongside the second-reviewer sheet.
 
 ---
 
@@ -165,14 +171,8 @@ The real question is never "Did you use AI?" The real question is: **"Does the e
 
 1. **See what done looks like** — open the [Ramesses II worked example (PDF)](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf).
 2. **Read the one-page guide** — open [`quickstart/`](quickstart/) for every step and field label on one page.
-3. **Download a template:**
-   - [**Blank Sheet**](templates/Falsifiability_Sheet_v5vai2_Blank.pdf) — start from scratch with your own artifact and claim
-   - [**Second Reviewer Blank Template**](templates/Second_Reviewer_Blank_Template.pdf) — blank form for the independent second reviewer
-4. **Compare** the claim, evidence, reviewer notes, and outcome across the example and the blank.
-5. **Try the workflow on one small case** — start with well-understood material to learn the form before tackling contested or undeciphered scripts.
-
-> **Three documents, three purposes:**
-> The *worked example* shows what a finished, reviewed sheet looks like. The *blank sheet* is where the original author records their claim and evidence. The *second reviewer blank template* is a separate form for the independent second reviewer — it is not a copy of the blank sheet.
+3. **Download a [blank sheet](templates/Falsifiability_Sheet_v5vai2_Blank.pdf)** and a [second-reviewer blank](templates/Second_Reviewer_Blank_Template.pdf).
+4. **Try the workflow on one small case** — start with well-understood material to learn the form before tackling contested or undeciphered scripts.
 
 ---
 
