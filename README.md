@@ -51,15 +51,7 @@ Three documents, three purposes:
 
 If you read one thing, read the worked example. If you want to understand the method in motion, read it alongside the second-reviewer sheet.
 
----
-
-## Example Output
-
-A completed Falsifiability Sheet for a Ramesses II cartouche (British Museum EA1006):
-
 ![Completed Falsifiability Sheet — Ramesses II cartouche, British Museum EA1006](assets/ramesses-ii-example.png)
-
-[Download the full worked-example PDF](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf)
 
 ---
 
@@ -71,7 +63,7 @@ Egyptian offers ground-truth: published sign lists, well-documented artifacts, c
 
 The real work ahead is partially deciphered material like Meroitic, contested readings, and eventually undeciphered systems — cases where "Defer" and "Unproven" are the expected honest outcomes, not failures. These are also the cases where unchecked interpretations do the most damage, because there is less consensus to push back against a confident-sounding claim.
 
-The protocol is designed for the cases where nobody in the room is certain, and the job is to make that uncertainty **legible** rather than hidden.
+The protocol exists for the cases where nobody in the room is certain — and where a confident-sounding AI output can do the most damage if no one pressure-tests it.
 
 ---
 
@@ -86,6 +78,23 @@ The question behind the workflow:
 > **How do we build a process that helps adults disagree well, surface the real voids, and test whether AI is helping — versus merely reinforcing confidence?**
 
 The claim record is one answer. It forces every claim into a bounded format where evidence, uncertainty, AI involvement, and reviewer disagreement are all visible on the same page. It does not resolve disagreement. It makes disagreement **readable**.
+
+That is an open problem. This workflow is one attempt. If you see a better way to test it, that is exactly the kind of contribution this project needs.
+
+---
+
+## Start Here
+
+1. **See what done looks like** — open the [Ramesses II worked example (PDF)](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf).
+2. **Read the one-page guide** — open [`quickstart/`](quickstart/) for every step and field label on one page.
+3. **Download a [blank sheet](templates/Falsifiability_Sheet_v5vai2_Blank.pdf)** and a [second-reviewer blank](templates/Second_Reviewer_Blank_Template.pdf).
+4. **Try the workflow on one small case** — start with well-understood material to learn the form before tackling contested or undeciphered scripts.
+
+---
+
+## The Full Method
+
+What follows is the step-by-step workflow, the AI logging protocol, and the field-level reference. Read this when you are ready to use the sheet — not before you have seen the problem it exists to solve.
 
 ---
 
@@ -164,15 +173,6 @@ Both peer reviewers see this log and rate the AI output using a traffic light:
 - **Red:** AI output is contradicted by the evidence, or makes unsupported leaps.
 
 The real question is never "Did you use AI?" The real question is: **"Does the evidence support what the AI suggested?"**
-
----
-
-## Start Here
-
-1. **See what done looks like** — open the [Ramesses II worked example (PDF)](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf).
-2. **Read the one-page guide** — open [`quickstart/`](quickstart/) for every step and field label on one page.
-3. **Download a [blank sheet](templates/Falsifiability_Sheet_v5vai2_Blank.pdf)** and a [second-reviewer blank](templates/Second_Reviewer_Blank_Template.pdf).
-4. **Try the workflow on one small case** — start with well-understood material to learn the form before tackling contested or undeciphered scripts.
 
 ---
 
