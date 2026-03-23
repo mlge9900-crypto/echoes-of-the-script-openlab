@@ -41,7 +41,7 @@ Open the completed Ramesses II example. One claim. One artifact. Evidence logged
 
 **[→ Open the worked example (PDF)](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf)**
 
-A completed sheet shows the claim. The [second-reviewer sheet](templates/Second_Reviewer_Blank_Template.pdf) shows whether the claim survives independent pressure. Without a second reviewer, a sheet is provisional. With independent review recorded, it becomes meaningfully auditable.
+A completed sheet shows the claim. The second reviewer example shows whether the claim survives independent pressure. Without a second reviewer, a sheet is provisional. With independent review recorded, it becomes meaningfully auditable.
 
 Three documents, three purposes:
 
