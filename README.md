@@ -45,9 +45,9 @@ A completed sheet shows the claim. The second reviewer example shows whether the
 
 Three documents, three purposes:
 
-1. **The worked example** — a finished, reviewed sheet so you can see what done looks like.
-2. **The second reviewer example** — a filled second-reviewer case showing how an independent reviewer tests the claim for contradictions, alternatives, or gaps.
-3. **The second reviewer blank** — the blank second-reviewer sheet used by an independent reviewer.
+1. **[The worked example](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf)** — a finished, reviewed sheet so you can see what done looks like.
+2. **[The second reviewer example](assets/ramesses-ii-disagreement-example.png)** — a filled second-reviewer case showing how an independent reviewer tests the claim for contradictions, alternatives, or gaps.
+3. **[The second reviewer blank](templates/Second_Reviewer_Blank_Template.pdf)** — the blank second-reviewer sheet used by an independent reviewer.
 
 If you read one thing, read the worked example. If you want to understand the method in motion, read it alongside the second reviewer example.
 
