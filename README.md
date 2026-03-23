@@ -45,11 +45,11 @@ A completed sheet shows the claim. The [second-reviewer sheet](templates/Second_
 
 Three documents, three purposes:
 
-1. **Worked example** — a finished, reviewed sheet so you can see what done looks like.
+1. **[Worked example](worked-examples/Falsifiability_Sheet_v5vai2_RamessesII_WorkedExample.pdf)** — a finished, reviewed sheet so you can see what done looks like.
 2. **Second reviewer example** — a filled second-reviewer case showing how an independent reviewer tests the claim for contradictions, alternatives, or gaps.
-3. **Second reviewer blank** — the blank second-reviewer sheet used by an independent reviewer.
+3. **[Second reviewer blank](templates/Second_Reviewer_Blank_Template.pdf)** — the blank second-reviewer sheet used by an independent reviewer.
 
-If you want to understand the method in motion, read the worked example alongside the second reviewer example.
+If you read one thing, read the worked example. If you want to understand the method in motion, read it alongside the second reviewer example.
 
 ![Completed Falsifiability Sheet — Ramesses II cartouche, British Museum EA1006](assets/ramesses-ii-example.png)
 
