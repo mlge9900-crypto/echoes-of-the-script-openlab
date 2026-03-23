@@ -43,21 +43,29 @@ Open the completed Ramesses II example. One claim. One artifact. Evidence logged
 
 A completed sheet shows the claim. The [second-reviewer sheet](templates/Second_Reviewer_Blank_Template.pdf) shows whether the claim survives independent pressure. Without a second reviewer, a sheet is provisional. With independent review recorded, it becomes meaningfully auditable.
 
-Three documents, three purposes:
+Three images, three stages:
 
-1. **The worked example** — a finished, reviewed sheet so you can see what done looks like.
-2. **The [second-reviewer blank](templates/Second_Reviewer_Blank_Template.pdf)** — where an independent reviewer pressure-tests the claim for contradictions, alternatives, or gaps.
-3. **The [blank sheet](templates/Falsifiability_Sheet_v5vai2_Blank.pdf)** — where you record your own claim and evidence from scratch.
+1. **The worked example** — both reviewers agree, outcome is Confirmed, and you can see what a finished sheet looks like.
+2. **The disagreement example** — same artifact, but R2 pushes back. The sheet logs both outcomes without forcing agreement.
+3. **The blank second-reviewer sheet** — R1's work is done. R2's section is empty. This is what an outside reviewer actually receives.
 
-If you read one thing, read the worked example. If you want to understand the method in motion, read it alongside the second-reviewer sheet.
+If you read one thing, read the worked example. If you want to see what pressure looks like, compare it to the disagreement version. If you want to try reviewing, download the [blank second-reviewer sheet (PDF)](templates/Second_Reviewer_Blank_Template.pdf) or start from the [blank sheet (PDF)](templates/Falsifiability_Sheet_v5vai2_Blank.pdf).
+
+### 1. Worked example — both reviewers confirm
+
+R1 (MG) and R2 (DJ) both confirm the cartouche reading. Confidence is marked across transcription, category, orientation, and glyph. AI output is logged and rated Yellow — plausible but not independently decisive. Both peer-check panels are filled. Outcome: **Confirmed**.
 
 ![Completed Falsifiability Sheet — Ramesses II cartouche, British Museum EA1006](assets/ramesses-ii-example.png)
 
-**What happens when reviewers disagree?** Same artifact, same claim — but R2 recommends Revise. AI stays Yellow. The sheet logs both outcomes without forcing agreement.
+### 2. Disagreement example — R2 recommends Revise
+
+Same claim, same artifact — but R2 (DJ) finds the reading provisional. R1 (MG) still confirms, but R2's peer-check notes flag the cartouche orientation and lower sign grouping near the base as needing re-examination before full closure. AI stays **Yellow**: the model agrees the main disagreement is not about object identity, but about whether the reading can close. The sheet holds both outcomes — Confirmed and Revise — on the same page.
 
 ![Reviewer disagreement example — Ramesses II, EA1006](assets/ramesses-ii-disagreement-example.png)
 
-**What does a second reviewer actually receive?** R1's outcome is recorded. The R2 section is blank. This is what an independent reviewer sees before they begin.
+### 3. Blank second-reviewer sheet — ready for an outside reviewer
+
+R1 (MG) is filled in. Outcome: Confirmed. The Peer Check (R1) notes are visible. Everything else on the R2 side — reviewer name, evidence notes, outcome, AI PASS row — is blank. This is what a real independent reviewer receives: the claim and R1's work, but no second opinion to anchor to.
 
 ![Blank second-reviewer sheet — Ramesses II, EA1006](assets/ramesses-ii-blank-r2-sheet.png)
 

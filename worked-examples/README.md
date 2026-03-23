@@ -14,12 +14,20 @@ This is the recommended starting point for new users — study it before filling
 
 ![Filled disagreement example — Ramesses II, EA1006](../assets/ramesses-ii-disagreement-example.png)
 
-The same artifact, same claim — but this time the reviewers disagree. R1 (MG) confirms. R2 (DJ) finds the reading provisional and recommends Revise: the cartouche orientation and lower sign grouping near the base need re-checking before full closure. AI modelling stays Yellow — cautious, not overriding.
+**File:** Same claim as the worked example, but with a split outcome.
 
-This is what healthy disagreement looks like in the workflow. The sheet does not force agreement. It makes the disagreement visible and logs both outcomes.
+R1 (MG) confirms the cartouche reading. R2 (DJ) marks the outcome as **Revise** — the peer-check notes say the cartouche orientation and lower sign grouping near the base need re-examination before full closure. Both outcomes are logged on the same sheet.
+
+AI modelling stays **Yellow**. The AI comments note that the disagreement is not about object identity (both reviewers accept BM EA1006 as the artifact), but about whether the reading can close. Confidence remains cautious.
+
+This is what the workflow is built to surface: not a failure, but a readable disagreement. The sheet does not resolve it — it makes both positions visible so that a third party can follow the logic.
 
 ## Ramesses II — Blank Second-Reviewer Sheet
 
 ![Blank second-reviewer sheet — Ramesses II, EA1006](../assets/ramesses-ii-blank-r2-sheet.png)
 
-The same entry, ready for an independent second reviewer. R1's outcome is recorded. The R2 section, AI PASS row, and second peer-check panel are blank. This is what a real outside reviewer receives before they begin — everything the first reviewer saw, nothing the second reviewer should be influenced by.
+**Purpose:** This is the version an independent second reviewer actually receives.
+
+R1 (MG) is filled in — claim, evidence, confidence, prep notes, and outcome (Confirmed). The Peer Check (R1) panel has notes. Everything on the R2 side is blank: no reviewer name, no evidence notes, no outcome, no AI PASS entry. The Peer Check (R2) panel is empty.
+
+Use this to understand what a second reviewer sees before they start — and what they are expected to fill in independently.
