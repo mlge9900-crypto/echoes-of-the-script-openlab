@@ -43,13 +43,13 @@ Open the completed Ramesses II example. One claim. One artifact. Evidence logged
 
 A completed sheet shows the claim. The [second-reviewer sheet](templates/Second_Reviewer_Blank_Template.pdf) shows whether the claim survives independent pressure. Without a second reviewer, a sheet is provisional. With independent review recorded, it becomes meaningfully auditable.
 
-Three images, three stages:
+Three documents, three purposes:
 
-1. **The worked example** — both reviewers agree, outcome is Confirmed, and you can see what a finished sheet looks like.
-2. **The disagreement example** — same artifact, but R2 pushes back. The sheet logs both outcomes without forcing agreement.
-3. **The blank second-reviewer sheet** — R1's work is done. R2's section is empty. This is what an outside reviewer actually receives.
+1. **The worked example** — a finished, reviewed sheet so you can see what done looks like.
+2. **The [second-reviewer blank](templates/Second_Reviewer_Blank_Template.pdf)** — where an independent reviewer pressure-tests the claim for contradictions, alternatives, or gaps.
+3. **The [blank sheet](templates/Falsifiability_Sheet_v5vai2_Blank.pdf)** — where you record your own claim and evidence from scratch.
 
-If you read one thing, read the worked example. If you want to see what pressure looks like, compare it to the disagreement version. If you want to try reviewing, download the [blank second-reviewer sheet (PDF)](templates/Second_Reviewer_Blank_Template.pdf) or start from the [blank sheet (PDF)](templates/Falsifiability_Sheet_v5vai2_Blank.pdf).
+If you read one thing, read the worked example. If you want to understand the method in motion, read it alongside the second-reviewer sheet.
 
 ![Completed Falsifiability Sheet — Ramesses II cartouche, British Museum EA1006](assets/ramesses-ii-example.png)
 
