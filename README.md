@@ -53,6 +53,14 @@ If you read one thing, read the worked example. If you want to understand the me
 
 ![Completed Falsifiability Sheet — Ramesses II cartouche, British Museum EA1006](assets/ramesses-ii-example.png)
 
+**What happens when reviewers disagree?** Same artifact, same claim — but R2 recommends Revise. AI stays Yellow. The sheet logs both outcomes without forcing agreement.
+
+![Reviewer disagreement example — Ramesses II, EA1006](assets/ramesses-ii-disagreement-example.png)
+
+**What does a second reviewer actually receive?** R1's outcome is recorded. The R2 section is blank. This is what an independent reviewer sees before they begin.
+
+![Blank second-reviewer sheet — Ramesses II, EA1006](assets/ramesses-ii-blank-r2-sheet.png)
+
 ---
 
 ## Why This Matters Beyond Egypt
