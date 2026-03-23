@@ -53,6 +53,10 @@ If you read one thing, read the worked example. If you want to understand the me
 
 ![Completed Falsifiability Sheet — Ramesses II cartouche, British Museum EA1006](assets/ramesses-ii-example.png)
 
+![Reviewer disagreement example — Ramesses II, EA1006](assets/ramesses-ii-disagreement-example.png)
+
+![Blank second-reviewer sheet — Ramesses II, EA1006](assets/ramesses-ii-blank-r2-sheet.png)
+
 ---
 
 ## Why This Matters Beyond Egypt
